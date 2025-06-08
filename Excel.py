@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 from gtts import gTTS
 
 
-# STEP 1: Load environment variables
 genai.configure(api_key="AIzaSyD4o3gh3V8VQ4UBOlgY5Bo-Jcq_lFCF-vk")
 
 # STEP 2: Streamlit-safe Text-to-Speech using gTTS
