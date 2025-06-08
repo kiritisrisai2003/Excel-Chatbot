@@ -21,5 +21,14 @@ Excel Mate is your intelligent Excel companion built with **Streamlit** and powe
 - 📥 **Download Results**  
   Save cleaned or filtered results directly as Excel files.
 
----
+
+
+  1. **Clone the repository:**
+     git clone https://github.com/yourusername/Excel-AI-Chatbot.git
+     cd Excel-AI-Chatbot
+  2. GEMINI_API_KEY=your_gemini_api_key_here
+  3. Install dependencies:
+     pip install -r requirements.txt
+  4. Run the Streamlit app:
+     streamlit run ExcelChat.py
 
