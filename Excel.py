@@ -9,9 +9,11 @@ import importlib.util
 import subprocess
 import sys
 import matplotlib.pyplot as plt
+
 from gtts import gTTS
+import uuid
 
-
+# STEP 1: Load environment variables
 genai.configure(api_key="AIzaSyD4o3gh3V8VQ4UBOlgY5Bo-Jcq_lFCF-vk")
 
 # STEP 2: Streamlit-safe Text-to-Speech using gTTS
@@ -146,3 +148,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
