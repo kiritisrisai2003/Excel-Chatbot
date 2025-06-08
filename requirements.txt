@@ -1,0 +1,11 @@
+Pandas
+Streamlit
+Matplotlib
+OpenPyXL
+XlsxWriter
+google-generativeai 
+pyttsx3
+gTTS
+python-dotenv
+SpeechRecognition
+pyaudio
