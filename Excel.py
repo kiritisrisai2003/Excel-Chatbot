@@ -9,13 +9,11 @@ import importlib.util
 import subprocess
 import sys
 import matplotlib.pyplot as plt
-from dotenv import load_dotenv
 from gtts import gTTS
-import uuid
+
 
 # STEP 1: Load environment variables
-load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key="AIzaSyD4o3gh3V8VQ4UBOlgY5Bo-Jcq_lFCF-vk")
 
 # STEP 2: Streamlit-safe Text-to-Speech using gTTS
 def speak_text(text):
